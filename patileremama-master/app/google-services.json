@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "916449860348",
+    "project_id": "patimama-f0338",
+    "storage_bucket": "patimama-f0338.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916449860348:android:79a7718a227c7e58599579",
+        "android_client_info": {
+          "package_name": "com.example.patileremama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916449860348-iqcmrfonpnqs35eoh9cq1gr5uc58vpfa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-t0dAko8hc3RTzpxdu_v8kshNpQc0uHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916449860348-iqcmrfonpnqs35eoh9cq1gr5uc58vpfa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#F6F3EF"
+    android:fitsSystemWindows="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="#BBB1A4"
+        android:orientation="vertical"
+        android:padding="45px">
+
+        <EditText
+            android:id="@+id/card_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#332F29"
+            android:textColorHint="#49433D"
+            android:hint="Kart Numarası">
+        </EditText>
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/card_lateDate"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:textColor="#332F29"
+                android:textColorHint="#49433D"
+                android:hint="Son kullanma tarihi(bknz. 05/31)">
+            </EditText>
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/card_cvcode"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:textColor="#332F29"
+                android:textColorHint="#49433D"
+                android:hint="Cvv(bknz. 345)">
+            </EditText>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/card_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#332F29"
+            android:textColorHint="#49433D"
+            android:hint="Kart Üzerindeki Ad Soyad">
+        </EditText>
+
+    </LinearLayout>
+</ScrollView>
